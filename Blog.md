@@ -4,15 +4,18 @@
 This blog provides a summary of our project on medical image generation using GANs. We implemented LS-GAN, WGAN, and WGAN-GP on the MedMNIST dataset and evaluated their performance using Inception Score (IS) and Fréchet Inception Distance (FID).
 
 ## Project Details
-- **Dataset**: ChestMNIST (28x28 grayscale medical images)
-- **GAN Variants**:
+ **Dataset**: ChestMNIST (28x28 grayscale medical images)
+ 
+ **GAN Variants**:
   - LS-GAN (Least Squares GAN)
   - WGAN (Wasserstein GAN)
   - WGAN-GP (Wasserstein GAN with Gradient Penalty)
-- **Evaluation Metrics**:
+    
+ **Evaluation Metrics**:
   - **Inception Score (IS)**: Measures diversity and quality of generated images.
   - **Fréchet Inception Distance (FID)**: Measures similarity between real and generated images.
-- **Technologies Used**:
+    
+ **Technologies Used**:
   - Python
   - PyTorch
   - TorchMetrics (for IS and FID computation)
