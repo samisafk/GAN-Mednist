@@ -83,3 +83,8 @@ python evaluate.py
 - **PyTorch**: Deep learning framework used for training
 - **TorchMetrics**: Used for computing IS and FID scores
 
+## Blog Post
+
+For a detailed explanation of this project, check out my blog post on Medium:
+
+[GAN-Based Medical Image Generation and Evaluation](https://samisafk.medium.com/gan-based-medical-image-generation-and-evaluation-39031802d441)
